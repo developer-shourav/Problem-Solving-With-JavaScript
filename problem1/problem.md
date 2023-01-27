@@ -13,3 +13,6 @@ Sample Input:
 700
 Output:
 300
+
+
+[Source: https://drive.google.com/drive/u/1/folders/1FbntkDTYNA33BuiqJ9TVF9-YWlqvhZch](https://drive.google.com/drive/u/1/folders/1FbntkDTYNA33BuiqJ9TVF9-YWlqvhZch)
