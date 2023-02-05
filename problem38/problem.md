@@ -1,0 +1,1 @@
+Calculate the average rate of profit
