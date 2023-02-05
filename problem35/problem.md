@@ -1,0 +1,1 @@
+You will be given the function input as Fahrenheit. You calculate the temperature and convert it to Celsius and return the output
