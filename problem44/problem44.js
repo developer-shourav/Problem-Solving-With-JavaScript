@@ -34,3 +34,12 @@ I love to code.
 I love to eat biryani.`;
 
 console.log(aboutDeveloper);
+
+
+/* Task Three: */
+
+const sum = (a, b = 375) => a + b ;
+
+const totalOf = sum(1000);
+console.log(totalOf);
+
