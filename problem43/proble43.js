@@ -7,8 +7,18 @@ Tom and his friends are participating in the "Who is the tallest?" competition. 
 
 1. Sample Input-1: 157 134 188
 - Sample Output-1: 188
-2. Sample Input-2: 167 100 120 165 137
+2. Sample Input-2: 167 100 120 165 137 190
 - Sample Output-2: 190 */
 
 
 
+const theTallestIs = (peoplesHeight) => {
+    const tallest = Math.max(...peoplesHeight);
+    return tallest;
+};
+
+
+ const heights = [167, 100, 120, 165, 137, 190];
+ const result = theTallestIs(heights); 
+
+console.log(result);
