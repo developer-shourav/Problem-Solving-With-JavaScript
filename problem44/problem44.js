@@ -12,6 +12,15 @@ parameter. Add these two parameters and return the result.
 
 
 
-
-
 problem source: https://drive.google.com/file/d/1Ut8t4Ed8V-U0Axtz4nbIXJhmxvMEMUe9/view?usp=sharing */
+
+
+
+
+/* Task One: */
+
+const multiplier = ( num1, num2, num3) => num1 * num2 * num3 ;
+
+
+const resultOfThreeParamsMultiply = multiplier(10, 20, 30);
+console.log(resultOfThreeParamsMultiply);
