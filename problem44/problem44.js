@@ -24,3 +24,13 @@ const multiplier = ( num1, num2, num3) => num1 * num2 * num3 ;
 
 const resultOfThreeParamsMultiply = multiplier(10, 20, 30);
 console.log(resultOfThreeParamsMultiply);
+
+
+
+/* Task Two: */
+
+const aboutDeveloper = `I am a web developer. 
+I love to code. 
+I love to eat biryani.`;
+
+console.log(aboutDeveloper);
