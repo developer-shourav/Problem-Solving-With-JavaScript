@@ -33,3 +33,21 @@ const user = {
     },
   };
   
+  const emailOfUser = user.email;
+  const userAddres = user.address;
+  const userCity = user.address.city;
+  const userGeoLat = user['address']['geo']['lat'];
+  const userCompany = user.company['name'];
+
+  console.log(userAddres);
+  const totalOutput = `
+  1. User email is ${emailOfUser} 
+  2. User address is ${userAddres}
+  3. User city is ${userCity}
+  4. User lat is ${userGeoLat}
+  5. User company is ${userCompany}
+  
+  `;
+
+
+  console.log(totalOutput);
