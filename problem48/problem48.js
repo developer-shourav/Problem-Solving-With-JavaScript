@@ -42,3 +42,13 @@ console.log(evenNumbersUsingLoop);
 
 const evenNumbers = oddNumbers.map( number => number + 1);
 console.log(evenNumbers);
+
+/* ===========================
+         Task Two:
+============================== */
+
+const randomNumbers = [33, 50, 79, 78, 90, 101, 30 ] ;
+
+const numbersDividedBy10 = randomNumbers.filter( number => number % 10 === 0);
+console.log(numbersDividedBy10);
+
