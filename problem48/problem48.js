@@ -37,3 +37,8 @@ for( var i = 0; i < oddNumbers.length; i++){
 };
 
 console.log(evenNumbersUsingLoop);
+
+/* Using map() */
+
+const evenNumbers = oddNumbers.map( number => number + 1);
+console.log(evenNumbers);
