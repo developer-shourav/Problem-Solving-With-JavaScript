@@ -35,3 +35,11 @@ for( let i = 0; i < people.length; i++){
 
 console.log(sumOfAge);
 
+/* ================================================
+             Final task using for reduce()
+===================================================*/
+const allAges = people.map(x => x.age);
+const ageTotal = allAges.reduce((previoustotal, presentValue) => previoustotal + presentValue,0);
+
+
+console.log(ageTotal);
