@@ -19,3 +19,21 @@ method. Then compare the output of question 2 & question 3.
 prblem provider source : https://drive.google.com/file/d/1XcvIBe_rJlr6GY2rTnHlbIluTABXNhp7/view 
 
 */
+
+
+/* ===========================
+         Task One:
+============================== */
+
+const oddNumbers = [ 1, 3, 5, 7, 9 ] ;
+const evenNumbersUsingLoop = [];
+
+/* Using for loop */
+
+for( var i = 0; i < oddNumbers.length; i++){
+    const number = oddNumbers[i];
+    const evenNumber = number + 1 ;
+    evenNumbersUsingLoop.push(evenNumber)
+};
+
+console.log(evenNumbersUsingLoop);
