@@ -13,3 +13,11 @@ problem provider : https://drive.google.com/file/d/1XcvIBe_rJlr6GY2rTnHlbIluTABX
 
 */
 
+
+const student = {
+    name: 'Fredie', 
+    age: 26,
+}
+
+const ageVaue = student.age;
+console.log(ageVaue);
