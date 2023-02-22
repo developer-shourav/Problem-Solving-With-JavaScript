@@ -24,5 +24,6 @@ return averageOfAllNumsTotal;
 
 
 const numbers = [10, 13, 45, 46];
+/* const numbers = [2, 3, 4]; */
 const result = complexMathOperation(numbers);
 console.log(result.toFixed(2));
