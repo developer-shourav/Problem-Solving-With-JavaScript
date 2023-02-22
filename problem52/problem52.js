@@ -28,3 +28,6 @@ let data = {
         }
     ]
 };
+
+const cityOfData = data.location[0].city;
+console.log(cityOfData);
