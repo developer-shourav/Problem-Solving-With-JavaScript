@@ -52,3 +52,19 @@ const randomNumbers = [33, 50, 79, 78, 90, 101, 30 ] ;
 const numbersDividedBy10 = randomNumbers.filter( number => number % 10 === 0);
 console.log(numbersDividedBy10);
 
+
+
+/* ===========================
+         Task Three:
+============================== */
+
+const firstNumberDividedBy10 = randomNumbers.find( number => number % 10 === 0);
+console.log(firstNumberDividedBy10);
+
+const compareTask2AndTask3 = `
+The result of Task 2 is ${numbersDividedBy10}. (using filter method)
+And 
+The result of Task 3 is ${firstNumberDividedBy10}. (using find method)
+`;
+
+console.log(compareTask2AndTask3);
