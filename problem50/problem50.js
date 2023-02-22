@@ -23,3 +23,15 @@ const people = [
     {name: 'Rina', age: 15},
     {name: 'Suchorita', age: 22}
 ];
+
+/* ===================================
+      First task (using for loop)
+======================================*/
+let sumOfAge = 0 ;
+for( let i = 0; i < people.length; i++){
+    const age = people[i].age;
+    sumOfAge = sumOfAge + age ;
+};
+
+console.log(sumOfAge);
+
