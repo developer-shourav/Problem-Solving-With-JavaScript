@@ -27,4 +27,16 @@ const studentData = [
   },
 ];
 
-/* ===========Display B D =========== */
+/* ===========Display B , D =========== */
+
+
+const displayB10 = studentData[0].details[1].gradingDetails[0].grade;
+console.log(displayB10);
+
+const displayB11 = studentData[1].details[0].gradingDetails[0].grade;
+console.log(displayB11);
+
+const displayD = studentData[1].details[1].gradingDetails[0].grade;
+
+console.log(displayD);
+
