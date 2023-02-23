@@ -15,7 +15,11 @@ Array
  */
 
 
- const highestRunScorer = players => {
+/* =========================================
+          Method One: (Complex)
+============================================= */
+
+/*  const highestRunScorer = players => {
     const allPlayersRun = [];
     for( let i = 0; i < players.length; i++){
 
@@ -33,14 +37,34 @@ Array
         }
     }
  }
+ */
 
+/* =========================================
+          Method Two: (Simple)
+============================================= */
+
+function highestRunScorer(players){
+    let highestScorer = players [0][0];
+    let highestRun = players[0][1];
+
+    for(var i = 1; i < players.length; i++){
+
+        if(highestRun < players[i][1]){
+          
+          highestRun = players[i][1]
+          highestScorer = players[i][0];
+        }
+    }
+    return highestScorer;
+}
 
 const playersInfo = [
-    ["Asraful", 95],
     ["Sakib", 19],
     ["Musfique", 35],
+    ["Asraful", 95],
     ["Mahmudullah", 45],
-    ["Mashrafee", 13]
+    ["Mashrafee", 13],
+    ["Shourav", 115]
 ];
 
 const result = highestRunScorer(playersInfo);
