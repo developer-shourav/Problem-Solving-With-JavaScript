@@ -19,3 +19,9 @@ let data = {
 
 
 /* ======== Display `habluder adda` and `Beginner` ============ */
+
+const firstDisplay = data.data[0].bookDetails.name;
+console.log(firstDisplay);
+
+const secondDisplay = data.data[1].bookCategory;
+console.log(secondDisplay);
