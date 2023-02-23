@@ -43,3 +43,9 @@ How will you get the output `[uses 2D matrix concept]`
 
  */
 
+
+const firstOutput = data[3].pHeroCourses['course-xyz'];
+console.log(firstOutput);
+
+const secondOutput = data[3].locationField['en-US'].lon;
+console.log(secondOutput);
