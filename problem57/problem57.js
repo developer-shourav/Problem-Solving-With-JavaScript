@@ -26,3 +26,11 @@ How will you get the output
 abc
 xyz 
 */
+
+
+const firstOutput = activities['activity1'][0]['song_list']['song_1'];
+console.log(firstOutput);
+
+const secondOutput = activities['activity1'][1]['song_list']['song_2'];
+console.log(secondOutput);
+
