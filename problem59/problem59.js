@@ -25,3 +25,14 @@ How will you display
 - Bangladesh 
 
 */
+
+
+const firstDisplayItem = instructor['additionalData']['books'][1];
+console.log(firstDisplayItem);
+
+const secondDisplayItem = instructor.additionalData.moreDetails.hometown.state;
+console.log(secondDisplayItem);
+
+const thirdDisplayItem = instructor['additionalData']['moreDetails']['countriesLivedIn'][0];
+console.log(thirdDisplayItem);
+
