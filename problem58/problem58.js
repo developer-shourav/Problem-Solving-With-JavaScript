@@ -23,3 +23,21 @@ let students = {
   },
 };
 
+
+
+
+
+/*=========================================
+           Display: 
+              1. Petersbur
+              2. Herry
+============================================  */
+
+
+const firstDisplayValue = students['2222']['address']['city'];
+console.log(firstDisplayValue);
+
+
+const secondDisplayValue = students['3333']['name'];
+console.log(secondDisplayValue);
+
