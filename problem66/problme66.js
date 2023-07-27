@@ -20,3 +20,15 @@ function calculatePositiveNumbers(arrayOfNumbers){
 };
 
 console.log(calculatePositiveNumbers([2, -5, 10, -3, 7]));
+
+/* ------------------------------------------
+      Solution Two using es6 array method:
+------------------------------------------------ */
+
+const totalOfPositiveNumbers = arrayOfNumbers => {
+    const positiveNumbers = arrayOfNumbers.filter( numbers => numbers > 0);
+    const total = positiveNumbers.reduce((previous, present) => previous + present , 0);
+    return total;
+}
+
+console.log(totalOfPositiveNumbers([2, -5, 10, -3, 7]));
