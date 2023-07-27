@@ -2,3 +2,29 @@
 
 /* Example Input: "hello world" Example Output: "dlrow olleh" */
 
+/* ----------------------------
+      Solution One:
+------------------------------- */
+
+function textReverser(text){
+
+    let reverseText = '';
+
+    for(let i = text.length - 1; i >= 0; i--){
+        const letter = text[i];
+        reverseText = reverseText + letter;
+    }
+    
+    return reverseText;
+}
+
+console.log(textReverser("hello world"));
+
+
+/* ----------------------------
+      Solution Two:
+------------------------------- */
+
+const stringReverser = text => text.split('').reduce((previous, present) => present +  previous, '' );
+
+console.log(stringReverser("hello world"));
