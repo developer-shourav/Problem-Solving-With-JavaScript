@@ -5,4 +5,22 @@
 
  */
 
- 
+ const twoIndices = (arr, target) => {
+    const allNumbers = {};
+  
+    for (let i = 0; i < arr.length; i++) {
+      const firstNum = arr[i];
+      const secondNum = target - firstNum;
+      if (allNumbers.hasOwnProperty(secondNum)) {
+        const firstIndex = allNumbers[secondNum];
+        return [firstIndex, i];
+      }
+  
+      allNumbers[firstNum] = i;
+    }
+  
+    return [];
+  }
+  
+  // Example usage:
+  console.log(twoIndices([1, 3, 6, 8, 11, 15], 9)); 
